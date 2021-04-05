@@ -24,7 +24,7 @@
         <main>
             <h2>session</h2>
             <%if (request.getAttribute("name") != null) {%>
-                <div><%= request.getAttribute("name")%></div>
+            <div><%= request.getAttribute("name")%></div>
             <%}%>
 
             <form method="">
@@ -33,5 +33,8 @@
                 <input type="submit" value="Enviar">
             </form>
         </main>
+        <footer>
+            <%@include file="WEB-INF/jspf/footer.jspf" %>
+        </footer>
     </body>
 </html>

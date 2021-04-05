@@ -19,5 +19,8 @@
             <h2>Início</h2>
             <p>Site de demonstração do uso de atributos por contexto.</p>
         </main>
+        <footer>
+            <%@include file="WEB-INF/jspf/footer.jspf" %>
+        </footer>
     </body>
 </html>

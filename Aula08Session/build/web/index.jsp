@@ -19,5 +19,8 @@
         <main>
             <p>Site de demonstração do HttpSession.</p>
         </main>
+        <footer>
+            <%@include file="WEB-INF/jspf/footer.jspf" %>
+        </footer>
     </body>
 </html>
