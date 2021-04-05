@@ -1,0 +1,12 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<nav>
+<h2>AttWeb</h2>
+<ul>
+    <li><a href="index.jsp">index</a></li>
+    <li><a href="application.jsp">application</a></li>
+    <li><a href="session.jsp">session</a></li>
+    <li><a href="request.jsp">request</a></li>
+</ul>
+
+</nav>
